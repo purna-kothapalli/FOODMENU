@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    /* border: 1px solid red; */
+}
+.navbar{
+    background: linear-gradient(to left, white, rgb(3, 220, 227));
+    box-shadow: 1px 1px 1px rgb(161, 161, 161);
+}
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+    /* background-color: white; */
+    font-weight: bold;
+    /* margin-left: 10%; */
+}
+.nav-item{
+    padding: 1%;
+}
+.nav-link:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0) !important;
+    border-radius: 5px;
+}

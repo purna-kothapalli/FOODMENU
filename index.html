@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./images/logo.png">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+    .banner {
+    background: url('./images/banner.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px red;
+}
+.banner h1{
+    color: rgb(0, 221, 255);
+    font-size: 60px;
+    font-weight: bold;
+    /* margin-top: -20%; */
+    font-family: "Lora", serif;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+
+}
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+.card{
+    height: 500px;
+}
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <img src="./images/logo.png" alt="Logo" width="50px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Hero Section -->
+    <section class="banner bg-primary text-center ">
+        <div class="container">
+            <h1>Welcome to Foodies</h1>
+            <p>Your favorite place for delicious food</p>
+        </div>
+    </section>
+
+    <!-- Food Items Section -->
+    <section class="food-items py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://www.yummytummyaarthi.com/wp-content/uploads/2014/12/1.-7.jpg  " class="card-img-top" alt="Food 1">
+                        <div class="card-body">
+                            <h5 class="card-title">CHICKEN DUM BIRYANI RECIPE</h5>
+                            <p class="card-text" >I have made so many types of biryani, but dum biryani has the real taste. Love pressure cooker biryani and one pot biryani as well but nothing can beat a dum biryani when it is properly made.</p>
+                            <button class="btn btn-secondary">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/06/7a/89/88/kuchipudi-biryani-very.jpg" class="card-img-top" alt="Food 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Kunda Biryani</h5>
+                            <p class="card-text">Kunda biryani is cooked separately on a charcoal, in an earthen kunda and sealed with authentic tandoori roti to preserve the flavors.</p>
+                            <button class="btn btn-secondary">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://www.us2guntur.com/images//10071img/FriedPieceChickenBiryani_B_151220.jpg" class="card-img-top" alt="Food 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Chicken Fry Piece Biryani</h5>
+                            <p class="card-text">Restaurant style chicken fry biryani made by stir frying chicken in spices and then layering with plain biryani rice.</p>
+                            <button class="btn btn-secondary">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="food-items py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347382/india-food-ras-malai/india-food-ras-malai-1120x732.jpg" class="card-img-top" alt="Food 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Ras Malai</h5>
+                            <p class="card-text" >I have made so many types of biryani, but dum biryani has the real taste. Love pressure cooker biryani and one pot biryani as well but nothing can beat a dum biryani when it is properly made.</p>
+                            <button class="btn btn-secondary">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://www.bitesbee.com/wp-content/uploads/2021/09/Chole-Bhature.jpg" class="card-img-top" alt="Food 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Chole Bhature</h5>
+                            <p class="card-text">Kunda biryani is cooked separately on a charcoal, in an earthen kunda and sealed with authentic tandoori roti to preserve the flavors.</p>
+                            <button class="btn btn-secondary">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://images.herzindagi.info/image/2021/Sep/chaii-samosa.jpg" class="card-img-top" alt="Food 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Samosa</h5>
+                            <p class="card-text">Restaurant style chicken fry biryani made by stir frying chicken in spices and then layering with plain biryani rice.</p>
+                            <button class="btn btn-secondary">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="food-items py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347420/india-food-gulab-jamun/india-food-gulab-jamun-1120x732.jpg" class="card-img-top" alt="Food 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Gulab Jamun</h5>
+                            <p class="card-text" >I have made so many types of biryani, but dum biryani has the real taste. Love pressure cooker biryani and one pot biryani as well but nothing can beat a dum biryani when it is properly made.</p>
+                            <button class="btn btn-secondary">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347374/india-food-sambar/india-food-sambar-1120x732.jpg" class="card-img-top" alt="Food 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Sambar</h5>
+                            <p class="card-text">Kunda biryani is cooked separately on a charcoal, in an earthen kunda and sealed with authentic tandoori roti to preserve the flavors.</p>
+                            <button class="btn btn-secondary">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347444/india-food-butter-chicken/india-food-butter-chicken-1120x732.jpg" class="card-img-top" alt="Food 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Butter Chicken</h5>
+                            <p class="card-text">Restaurant style chicken fry biryani made by stir frying chicken in spices and then layering with plain biryani rice.</p>
+                            <button class="btn btn-secondary">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
